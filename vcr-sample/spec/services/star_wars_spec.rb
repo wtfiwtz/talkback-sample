@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe StarWars do
+RSpec.describe StarWars, vcr: true do
     it 'should get C-3PO character details' do
         c3po = StarWars.get_starwars_character
         ap c3po
