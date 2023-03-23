@@ -1,0 +1,86 @@
+{
+    meta: {
+        createdAt: '2023-03-23T07:49:37.802Z',
+        host: 'https://swapi.dev/',
+        resHumanReadable: true,
+    },
+    req: {
+        headers: {
+            accept: 'application/json, text/plain, */*',
+            referer: 'http://localhost/',
+            'user-agent': 'Mozilla/5.0 (darwin) AppleWebKit/537.36 (KHTML, like Gecko) jsdom/20.0.3',
+            'accept-language': 'en',
+            origin: 'http://localhost',
+            'accept-encoding': 'gzip, deflate',
+            connection: 'keep-alive',
+        },
+        url: '/api/people/2',
+        method: 'GET',
+        body: '',
+    },
+    res: {
+        status: 200,
+        headers: {
+            server: [
+                'nginx/1.16.1',
+            ],
+            date: [
+                'Thu, 23 Mar 2023 07:49:39 GMT',
+            ],
+            'content-type': [
+                'application/json',
+            ],
+            'transfer-encoding': [
+                'chunked',
+            ],
+            connection: [
+                'keep-alive',
+            ],
+            vary: [
+                'Accept, Cookie',
+            ],
+            etag: [
+                '"fa1358a5c603d8393431bfb632861d08"',
+            ],
+            allow: [
+                'GET, HEAD, OPTIONS',
+            ],
+            'x-frame-options': [
+                'SAMEORIGIN',
+            ],
+            'access-control-allow-origin': [
+                '*',
+            ],
+            'strict-transport-security': [
+                'max-age=15768000',
+            ],
+        },
+        body: {
+            name: 'C-3PO',
+            height: '167',
+            mass: '75',
+            hair_color: 'n/a',
+            skin_color: 'gold',
+            eye_color: 'yellow',
+            birth_year: '112BBY',
+            gender: 'n/a',
+            homeworld: 'https://swapi.dev/api/planets/1/',
+            films: [
+                'https://swapi.dev/api/films/1/',
+                'https://swapi.dev/api/films/2/',
+                'https://swapi.dev/api/films/3/',
+                'https://swapi.dev/api/films/4/',
+                'https://swapi.dev/api/films/5/',
+                'https://swapi.dev/api/films/6/',
+            ],
+            species: [
+                'https://swapi.dev/api/species/2/',
+            ],
+            vehicles: [],
+            starships: [],
+            created: '2014-12-10T15:10:51.357000Z',
+            edited: '2014-12-20T21:17:50.309000Z',
+            url: 'https://swapi.dev/api/people/2/',
+        },
+    },
+}
